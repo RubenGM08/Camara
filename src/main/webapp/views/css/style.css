@@ -1,0 +1,63 @@
+body{
+    font-family: sans-serif;
+}
+
+#camara{
+    width: 70%;
+    height: auto;
+}
+
+#photo-galery{
+    display: flex;
+    flex-wrap: wrap; /*organizar segun contenedor y si tiene que bajar el contenido a otra linea..lo sigue organizando*/
+    gap: 10px;
+}
+
+.photo{
+    width: 200px;
+    height: auto;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.photo-container{
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.download-photo{
+
+}
+
+.photo-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.photo-buttons button{
+    background: rgba(0,0,0,0.7);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.photo-buttons .delete-photo{
+    background: rgba(255,0,0,0.7);
+}
+
+.enVivo{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    height: 100vh;
+}
+
+hr{
+    height: 20px;
+    background: rgb(255,0,0);
+    background: linear-gradient(180deg, rgba(255,0,0,1) 1%, rgba(194,170,49,1) 100%);
+}
+
